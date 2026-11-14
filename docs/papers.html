@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Papers · Luke D. Visconte</title>
+  <meta name="description" content="Working and finished papers by Luke D. Visconte.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico?v=3" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=3">
+  <link rel="stylesheet" href="assets/style.css?v=23">
+</head>
+<body class="wide">
+  <header class="site">
+    <div class="wrap">
+      <a class="site-name" href="index.html">Luke D. Visconte</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="papers.html" aria-current="page">Papers</a>
+        <a href="files/lukevisconte_cv.pdf" target="_blank" rel="noopener">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+   <div class="two-col">
+    <section class="research-text">
+    <p>My early research examines how well the standard models of asset prices hold up against real data. Across a series of papers, I test Geometric Brownian Motion and its leading extensions, the Merton, Heston, Variance Gamma, and Bates models, against ten years of daily S&amp;P 500 returns. That work led to a drawdown model of my own, formulated using a Gaussian kernel, which offers a different account of how prices behave as markets approach severe losses. Because it is heavily parameterized, the model is best suited to specific situations, chiefly periods of acute market distress.</p>
+
+    <p>My interests are broadly interdisciplinary. Outside of finance, I write on philosophy of language, political structures, and economic theory, and much of my philosophical work centers on the semantics of “meaning,” most directly in my critique of Ogden and Richards’s <em>The Meaning of Meaning</em>. I also write a series of essays called Commentaries. Each takes a broad question in philosophy, works through the major positions, and argues for a view of my own, usually a refinement or synthesis of existing theories.</p>
+
+    <p>Currently, I am working on several formal pieces. One examines the tension between John Rawls’s maximin reasoning and John Harsanyi’s average-utility approach to choice behind the veil of ignorance. Another explores how libertarian thinkers, particularly Friedrich von Hayek and Milton Friedman, diverge on the meaning of liberty. I am also drafting a paper on why some companies survive periods of extreme market turmoil while others fail, considering size, liquidity, and other factors, with the goal of a model that tests how well individual assets and portfolios withstand black swan events of varying severity.</p>
+    </section>
+
+    <section class="paper-list">
+    <h2 class="section-title research-title">Research</h2>
+    <p class="muted">All papers here are drafts unless specified as final. Comments are nonetheless welcome, but drafts and unfinalized papers will change prior to submission.</p>
+
+    <!-- This list fills itself from assets/papers.js. Papers marked "finished" get a "Final" label. -->
+    <div id="all-papers"></div>
+    </section>
+   </div>
+
+   <!-- Full-width row under both columns; commentaries sit side by side. -->
+   <section class="commentaries">
+     <h2 class="section-title">Commentaries</h2>
+     <p class="section-sub">Essays on enduring questions in philosophy. More will be added from a larger body of essays as each is revised for publication.</p>
+     <!-- This list fills itself from window.COMMENTARIES in assets/papers.js -->
+     <div id="all-commentaries" class="commentary-row"></div>
+   </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">&copy; <span id="year"></span> Luke D. Visconte</div>
+  </footer>
+
+  <script src="assets/papers.js?v=6"></script>
+  <script src="assets/render.js?v=5"></script>
+</body>
+</html>

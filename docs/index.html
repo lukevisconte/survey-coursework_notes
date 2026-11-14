@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luke D. Visconte</title>
+  <meta name="description" content="Research and working papers by Luke D. Visconte.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico?v=3" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=3">
+  <link rel="stylesheet" href="assets/style.css?v=23">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="site-name" href="index.html">Luke D. Visconte</a>
+      <nav>
+        <a href="index.html" aria-current="page">About</a>
+        <a href="papers.html">Papers</a>
+        <a href="files/lukevisconte_cv.pdf" target="_blank" rel="noopener">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="about">
+      <!-- Your photo: save it as files/photo.jpg. Hidden until the file exists. -->
+      <img class="portrait" src="files/photo.jpg" alt="Photo of Luke D. Visconte"
+           onerror="this.style.display='none'">
+      <div class="bio">
+        <p class="lede">Welcome! I’m Luke Visconte, an independent author researching and writing on a wide range of topics, including econometrics, applied mathematics, and philosophy.</p>
+        <p>My research, while quite broad, tends toward an underlying fixation of mine: identifying, testing, critiquing, and creating systems that better represent an ideal reality, from mathematical models to political frameworks.</p>
+        <p>When I’m not researching or writing, I enjoy everything from attending Cincinnati Reds games to visiting art exhibits. Above all else, though, I love golf, euchre, and boating.</p>
+        <p class="bio-note" id="bio-note">retsam-drah-a-si-ssenippah/moc.etnocsivekul <img class="bio-mark" src="favicon.svg?v=3" alt="" width="14" height="14"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">&copy; <span id="year"></span> Luke D. Visconte</div>
+  </footer>
+
+  <script>
+    document.addEventListener('selectionchange', function () {
+      var s = getSelection(), e = document.getElementById('bio-note');
+      if (e && s && !s.isCollapsed && s.containsNode(e, true)) e.classList.add('on');
+    });
+  </script>
+  <script src="assets/papers.js?v=6"></script>
+  <script src="assets/render.js?v=5"></script>
+</body>
+</html>
