@@ -75,42 +75,4 @@ window.PAPERS = [
 //  To add one: put the PDF in papers/commentaries/ and copy a block.
 // =====================================================================
 
-window.COMMENTARIES = [
-
-  {
-    title:    "Realist Absurdist Perfectionism: Meaning After the Death of God",
-    venue:    "Commentary 1",
-    status:   "working",
-    abstractLabel: "Argument",
-    abstract: "This essay examines whether life retains meaning after the death of God. Nietzsche’s proclamation, though often caricatured, was in his eyes a catastrophe: he feared that a secularizing Europe, left with nothing on which to hang its spiritual hats, would slide into Nihilism. The theistic view that a creator sets each life’s meaning is not dismissed, but a meaning imposed by an external force and accepted on its authority, rather than examined and logically derived, is inherited on someone else’s terms. Nietzsche’s fear, while not irrational, was overstated, as human history moves in cycles and rarely spirals to unrecoverable depths. Pessimistic Nihilism is bleak but is not the only form Nihilism takes, and existentialist self-created meaning fails for want of any hierarchy or grounding. Absurdism proves the most tenable position, with one qualification: if life has no meaning and our task is to revolt against the absurd, then the greatest revolt is the unending striving for perfection. This position, Realist Absurdist Perfectionism, is held to be the most attractive, supportable, and logical response to the question of meaning.",
-    pdf:      "papers/commentaries/meaning-after-the-death-of-god.pdf",
-  },
-
-  {
-    title:    "Condemned to Be Free? A Decision-Theoretic Wager on Free Will",
-    venue:    "Commentary 2",
-    status:   "working",
-    abstractLabel: "Argument",
-    abstract: "This essay examines whether humans possess free will. Sartre’s claim that man is condemned to be free is read in the context of Being and Nothingness and of occupied France; his examples of bad faith show that we are aware of our roles, but not that we are free to abandon them, and his freedom, as de Beauvoir argued, is too internal and abstract to distinguish feeling free from being free. Determinism fares no better: quantum indeterminacy undermines Laplace’s demon, the most famous neuroscientific evidence against free will may reflect random neural noise rather than hidden decisions, and randomness offers no more control than fate. Compatibilism, even in Frankfurt’s strongest form, cannot escape Schopenhauer’s objection that one cannot will what one wills. Faced with possibilities whose odds cannot be known, the essay turns to decision theory: acting as if free leaves one better off or no worse off, a conclusion that justifies holding individuals responsible and grounds the striving demanded by Realist Absurdist Perfectionism.",
-    pdf:      "papers/commentaries/condemned-to-be-free.pdf",
-  },
-
-  {
-    title:    "A Necessary Fiction: Aristotle, Rawls, and the Assumption of Dignity",
-    venue:    "Commentary 3",
-    status:   "working",
-    abstractLabel: "Argument",
-    abstract: "This essay examines whether people are equal, and how they ought to be treated if they are not. It begins from Aristotle’s distinction between geometric equality, under which shares follow merit, and arithmetic equality, under which the law treats all parties as equal, and defends both against the socialist objection that legal equality masks economic inequality and the objection that merit is undefined. Merit is divided into external merit, the value of one’s talents to others, which compensation follows, and internal merit, the sustained striving for perfection relative to one’s capacity, whose reward is internal honor. Rawls receives a full exposition before the critique: his original position strips its choosers of everything human, maximin does not follow from rationality, his appeal to stability ignores the strain placed on the talented, and hypothetical consent is no consent at all. Nozick, Cohen, the regress objection, and Hayek press further, and the egalitarian alternatives of Temkin, Dworkin, Young, and Sandel fare no better. Distinguishing value from dignity, and working through five senses of dignity, the essay concludes that people differ in capacity and value and should be rewarded in proportion to that value, and that equal dignity, though it cannot be known and is likely false, must be assumed by society for it to function.",
-    pdf:      "papers/commentaries/a-necessary-fiction.pdf",
-  },
-
-  {
-    title:    "What Pilate Walked Away From: Truth and Fallible Realism",
-    venue:    "Commentary 4",
-    status:   "working",
-    abstractLabel: "Argument",
-    abstract: "This essay asks what truth is, beginning from the Correspondence Theory that Aristotle first stated and that most people still assume. It follows the challenges correspondence has faced, from Locke’s secondary qualities, Berkeley’s idealism, and Kant’s things in themselves to Strawson’s doubts about facts and the paradoxes of bivalence, and it examines the main alternatives: verificationism, coherence, deflationism, and pragmatism. Gathering these into two schools, it argues that objectivism fails not because there is no objective truth, but because no one can claim to know it, as the history of overturned beliefs from Kuhn to Laudan shows; relativism, meanwhile, refutes itself and, as Orwell saw, serves those who would impose truths of their own. It concludes for Fallible Realism: the assumption that one objective reality exists, joined to the admission that no human perspective can grasp it fully, so that certainty in any belief becomes the ultimate enemy.",
-    pdf:      "papers/commentaries/what-pilate-walked-away-from.pdf",
-  },
-
-];
+window.COMMENTARIES = [];   // held offline 2026-11-17; originals in website-held/commentaries/
